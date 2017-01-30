@@ -1,0 +1,45 @@
+
+body {
+    width: 900px;
+
+}
+ul {
+    width: 800px;
+}
+li {
+    display: inline;
+}
+main {
+    width: 50%;
+}
+aside {
+    margin: 0 0 0 30em;
+    position: fixed;
+    top: 3em;
+    width: 15%;
+}
+
+@media (max-width:400px) {
+    body {
+        width: 90%;
+        margin: 0;
+    }
+    ul {
+    width: 100%;
+    padding: 0;
+    }
+    li {
+        display: inline-block;
+    }
+    main {
+        width: 100%;
+        display: block;
+
+    }
+    aside {
+        width: 100%;
+        display: block;
+        margin: 0;
+        position: relative;
+    }
+}
