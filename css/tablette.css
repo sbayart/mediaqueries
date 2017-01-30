@@ -1,0 +1,32 @@
+body {
+    width: 90%;
+    margin: 0;
+}
+ul {
+    margin: 0 auto;
+    padding: 0;
+    width: 26em;
+}
+li {
+    display: inline-block;
+    width: 49%;
+}
+main {
+    width: 100%;
+    display: block;
+
+}
+aside {
+    display: block;
+    margin: 1em 0 0;
+    width: 100%;
+}
+article {
+    display: inline-block;
+    margin-right: 2em;
+    vertical-align: top;
+    width: 44%;
+}
+figure {
+    margin: 0;
+}
