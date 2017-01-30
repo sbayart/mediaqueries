@@ -8,6 +8,7 @@ ul {
 }
 li {
     display: inline-block;
+      margin: 0 0 1.2em;
 }
 main {
     width: 100%;
@@ -24,4 +25,10 @@ article {
     width: 100%;
     display: inline-block;
     vertical-align: top;
+}
+a {
+    background-color: pink;
+    color: black;
+    padding: 0.5em;
+    text-decoration: none;
 }
